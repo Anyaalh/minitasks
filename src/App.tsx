@@ -7,7 +7,8 @@ import {NewComponent} from "./components/NewComponent";
 import {FullButton} from "./components/button/FullButton";
 import {UniversalButton} from "./components/button/UniversalButton";
 import {UseState} from "./components/UseState";
-import {Filter} from "./components/button/Filter";
+import {Filter} from "./components/filter/Filter";
+import {NewMoneyFilter} from "./components/filter/NewMoneyFilter";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             {/*<UniversalButton name={"Stupid button"} callBack={button3Foo}/>*/}
             {/*<UseState/>*/}
             {/*<Filter/>*/}
+            <NewMoneyFilter/>
         </>
     )
 }
