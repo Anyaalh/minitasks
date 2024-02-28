@@ -41,7 +41,7 @@ function App() {
             {/*<UniversalButton callBack={()=>button2Foo("Ann2", 22)} name={"Button 2"}/>*/}
             {/*<UniversalButton name={"Stupid button"} callBack={button3Foo}/>*/}
             {/*<UseState/>*/}
-            <Filter/>
+            {/*<Filter/>*/}
         </>
     )
 }
