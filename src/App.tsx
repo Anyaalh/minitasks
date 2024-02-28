@@ -6,6 +6,8 @@ import {Footer} from "./site/Footer";
 import {NewComponent} from "./components/NewComponent";
 import {FullButton} from "./components/button/FullButton";
 import {UniversalButton} from "./components/button/UniversalButton";
+import {UseState} from "./components/UseState";
+import {Filter} from "./components/button/Filter";
 
 
 function App() {
@@ -22,7 +24,7 @@ function App() {
     const button1Foo = (name: string, age: number) => {
         console.log(name, age)
     }
-    const button2Foo = (name: string, age:number) => {
+    const button2Foo = (name: string, age: number) => {
         console.log(name, age)
     }
     const button3Foo = () => {
@@ -35,9 +37,11 @@ function App() {
             {/*<Footer/>*/}
             {/*<NewComponent student={student}/>*/}
             {/*<FullButton/>*/}
-            <UniversalButton callBack={()=>button1Foo("Ann", 21)} name={"Button 1"}/>
-            <UniversalButton callBack={()=>button2Foo("Ann2", 22)} name={"Button 2"}/>
-            <UniversalButton name={"Stupid button"} callBack={button3Foo}/>
+            {/*<UniversalButton callBack={()=>button1Foo("Ann", 21)} name={"Button 1"}/>*/}
+            {/*<UniversalButton callBack={()=>button2Foo("Ann2", 22)} name={"Button 2"}/>*/}
+            {/*<UniversalButton name={"Stupid button"} callBack={button3Foo}/>*/}
+            {/*<UseState/>*/}
+            <Filter/>
         </>
     )
 }
