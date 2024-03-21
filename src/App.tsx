@@ -9,6 +9,7 @@ import {UniversalButton} from "./components/button/UniversalButton";
 import {UseState} from "./components/UseState";
 import {Filter} from "./components/filter/Filter";
 import {NewMoneyFilter} from "./components/filter/NewMoneyFilter";
+import {Input} from "./components/input/Input";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             {/*<UseState/>*/}
             {/*<Filter/>*/}
             {/*<NewMoneyFilter/>*/}
+            <Input/>
         </>
     )
 }
